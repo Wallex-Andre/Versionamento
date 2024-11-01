@@ -1,0 +1,227 @@
+.título {font-family: "Hammersmith One", sans-serif;
+    color: #93221F;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    padding: 25px 60px;
+    display: inline;
+    background-color: #93221F;
+    border-radius: 30px;
+    left: 140px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    position: absolute;
+    z-index: 1;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 30rem;
+    margin-top: 2rem;
+}
+
+.btn:hover{
+    background-color: #be3631;
+}
+
+.modal-container{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: #93231f68;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.modal{
+    width: 60%;
+    min-width:400px;
+    min-height: 200px;
+    background-color: #ffffff62;
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.fechar{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: #93221F;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+.modal h1{
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.modal p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+
+@keyframes animate-modal {
+    from{
+        opacity: 0;
+        transform: translate3d(0, -20px, 0);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.modal-container.mostrar{
+    display: flex;
+}
+
+.mostrar .modal{
+    animation: animate-modal .3s;
+}
+
+.btn-1{
+    padding: 25px 60px;
+    display: inline;
+    background-color: #93221F;
+    border-radius: 30px;
+    left: 140px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    position: absolute;
+    z-index: 1;
+}
+
+.btn-1:hover{
+    background-color: #be3631;
+}
+
+.modal-container-1{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 50px;
+    background-color: #0000004b;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal-1{
+    width: 60%;
+    min-width:400px;
+    min-height: 200px;
+    background-color: #ffffff62;
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.fechar{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+.modal-1 h1{
+    margin-bottom: 20px;
+}
+
+@keyframes animate-modal {
+    from{
+        opacity: 0;
+        transform: translate3d(0, -20px, 0);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.modal-container-1.mostrar{
+    display: flex;
+}
+
+.mostrar .modal{
+    animation: animate-modal .3s;
+}
+
+.titulo2 {
+    color: #93221F;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.img {
+    display: block;
+    margin: 0.5rem auto;
+}
+
+p {
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    margin-top: 1rem;
+    word-wrap: break-word;
+    width: 45rem;
+}
+
+.main {
+    margin-top: 10rem;
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="logo.png" type="image/x-icon">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');</style>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');</style>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Hammersmith+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');</style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="Css/Nav-Bar Aluno.css" />
+  <link rel="stylesheet" href="Css/Footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="Css/Alertas Disciplinas.css">
+  <title>Área do Aluno</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="mobile-menu" id="open_side">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+        <section id="sidebar">
+        <div id="sidebar_content">
+            <div id="user">
+                <img src="Imagens/perfil1.jpg" id="user_avatar" alt="Avatar">
+            </div>
+            <div id="name-div">
+            <p id="user_items">Carolina Martins Santos</p>
+            </div>
+            <ul id="side_items">
+                <li class="side-item active">
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="item-description">
+                            Início
+                        </span>
+                    </a>
+                </li>
+    
+                <li class="side-item">
+                    <a href="#">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <span class="item-description">
+                            Maestro
+                        </span>
+                    </a>
+                </li>
+
+                <li class="side-item">
+                    <a href="#">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="item-description">
+                            Aulas digítais
+                        </span>
+                    </a>
+                </li>
+
+                <li class="side-item">
+                    <a href="#">
+                        <i class="fa-solid fa-file-lines"></i>
+                        <span class="item-description">
+                            Material
+                        </span>
+                    </a>
+                </li>
+    
+                <li class="side-item">
+                    <a href="#">
+                        <i class="fa-solid fa-bell"></i>
+                        <span class="item-description">
+                            Comunicações
+                        </span>
+                    </a>
+                </li>
+    
+                <li class="side-item">
+                    <a href="#">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span class="item-description">
+                            Agenda On-line
+                        </span>
+                    </a>
+                </li>
+    
+                <li class="side-item">
+                    <a href="#">
+                        <i class="fa-regular fa-circle-question" style="color: #ffffff;"></i>
+                        <span class="item-description">
+                            Ajuda
+                        </span>
+                    </a>
+                </li>
+    
+                <li class="side-item">
+                    <a href="#">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="item-description">
+                            Configurações
+                        </span>
+                    </a>
+                </li>
+                <div id="logout">
+                    <button id="logout_btn">
+                        <i class="fa-sharp fa-solid fa-turn-down"></i>
+                        <span class="item-description">
+                            Sair
+                        </span>
+                    </button>
+                </div>
+            </ul>
+        </div>
+    </section>
+          </ul>
+          <a class="logo" href="Magic Notes.html"><img src="Imagens/Logo.png" alt="Logo" class="logo_img"></a>
+          <a class="logo" href="Magic Notes.html"><img src="Imagens/Logo-Aluno.png" alt="Logo" class="logo_img_branco"></a>
+          <a class="conta" href="Login.html"><img src="Imagens/user.png" alt="conta" class="conta_img"></a>
+          <a class="conta" href="Login.html"><img src="Imagens/user-branco.png" alt="conta" class="conta_img_branco"></a>
+        </nav>
+      </header>
+      <script src="Javascript/mobile-navbar.js"></script>
+      <script src="Javascript/Disciplimas.js"></script>
+      <script src="Javascript/Alertas.js"></script>
+    <main>
+       <div id="topbar">
+
+        <button onclick="toggleConteudoD()" id="hide-dcp-conteudo"class="topbutton"><h1 id="Alertas" class="toptext">Alertas</h1></button>
+        <div id="linha-topbar-1"></div>
+
+        <button onclick="toggleConteudo()" id="hide-atv-conteudo" class="topbutton toptext"><h1 id="Disciplinas" class="toptext">Diciplinas</h1></button>
+        <div id="linha-topbar-2" style="display: none;"></div>
+
+       </div>
+
+       <div id="disciplinas-conteudo" style="display: none;">
+        <div id="disciplinas-div">
+        
+            <div class="dcp-div">
+                <div class="vermelho-d"></div>
+                <h1 class="titulo-alertas-d">Aulas de instrumentos</h1>
+                <div class="status">1 atividade não feita</div>
+            </div>
+            <div class="dcp-div">
+                <div class="vermelho-d"></div>
+                <h1 class="titulo-alertas-d">Teoria musical e percepção</h1>
+                <div class="status">1 atividade vencida</div>
+            </div>
+            <div class="dcp-div">
+                <div class="vermelho-d"></div>
+                <h1 class="titulo-alertas-d">História da música</h1>
+                <div class="status">1 atividade não feita</div>
+            </div>
+            <div class="dcp-div">
+                <div class="vermelho-d"></div>
+                <h1 class="titulo-alertas-d">Aulas de composição e arranjo</h1>
+                <div class="status">1 atividade não feita</div>
+            </div>
+            <div class="dcp-div">
+                <div class="vermelho-d"></div>
+                <h1 class="titulo-alertas-d">Improvisação</h1>
+                <div class="status">1 atividade vencida</div>
+            </div>
+            <div class="dcp-div">
+                <div class="vermelho-d"></div>
+                <h1 class="titulo-alertas-d">Produção musical e tecnologia</h1>
+                <div class="status">2 atividade não feita</div>
+            </div>
+            <div class="dcp-div">
+                <div class="vermelho-d"></div>
+                <h1 class="titulo-alertas-d">Prática em conjunto</h1>
+                <div class="status-d">1 atividade não feita</div>
+            </div>
+       </div>
+    </div>
+
+       <div id="atv-conteudo">
+
+       <div id="Atividades">
+
+        <div id="em-breve" class="top-atv">
+            <h1 class="numero">0</h1>
+            <h1 class="atv">Atividades</h1>
+            <h1 class="negrito">Em breve</h1>
+        </div>
+
+        <div id="não-feitas" class="top-atv top-2">
+            <h1 class="numero">5</h1>
+            <h1 class="atv">Atividades</h1>
+            <h1 class="negrito">Não feitas</h1>
+        </div>
+
+        <div id="feitas" class="top-atv top-2">
+            <h1 class="numero">8</h1>
+            <h1 class="atv">Atividades</h1>
+            <h1 class="negrito">Feitas</h1>
+        </div>
+
+        <div id="vencidas" class="top-atv top-2">
+            <h1 class="numero">3</h1>
+            <h1 class="atv">Atividades</h1>
+            <h1 class="negrito">Vencidas</h1>
+       </div>
+       </div>
+
+       <div id="atividades-div">
+        
+        <div class="atv-div">
+            <div class="vermelho"></div>
+            <h1 class="titulo-alertas">Aulas de instrumentos</h1>
+            <div class="status">1 atividade não feita</div>
+        </div>
+        <div class="atv-div">
+            <div class="vermelho"></div>
+            <h1 class="titulo-alertas">Teoria musical e percepção</h1>
+            <div class="status">1 atividade vencida</div>
+        </div>
+        <div class="atv-div">
+            <div class="vermelho"></div>
+            <h1 class="titulo-alertas">História da música</h1>
+            <div class="status">1 atividade não feita</div>
+        </div>
+        <div class="atv-div">
+            <div class="vermelho"></div>
+            <h1 class="titulo-alertas">Aulas de composição e arranjo</h1>
+            <div class="status">1 atividade não feita</div>
+        </div>
+        <div class="atv-div">
+            <div class="vermelho"></div>
+            <h1 class="titulo-alertas">Improvisação</h1>
+            <div class="status">1 atividade vencida</div>
+        </div>
+        <div class="atv-div">
+            <div class="vermelho"></div>
+            <h1 class="titulo-alertas">Produção musical e tecnologia</h1>
+            <div class="status">2 atividade não feita</div>
+        </div>
+        <div class="atv-div">
+            <div class="vermelho"></div>
+            <h1 class="titulo-alertas">Prática em conjunto</h1>
+            <div class="status">1 atividade não feita</div>
+        </div>
+
+       </div>
+    </div>
+    </main>
+    <script src="Javascript/Area do Aluno.js"></script>
+</body>
+</html>

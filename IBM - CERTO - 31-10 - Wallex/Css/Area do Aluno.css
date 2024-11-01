@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+
+
+
+#Titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#banner {
+    height: auto;
+    width: 1454px;
+}
+
+#blocos , #Imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blocos {
+    margin-top: 2rem;
+}
+
+#blocos2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+#bloco{
+    width: 640px;
+    height: 324.66px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 20px #000000;
+    border-radius: 30px;
+}
+
+.b1{
+    margin-right: 8rem;
+    display: flex;
+}
+
+.b2 {
+    display: flex;
+}
+
+#Imagem {
+    border-radius: 100px;
+    width: 160px;
+    height: 160px;
+    margin-top: 2rem;
+    justify-content: left;
+    margin-left: 2rem;
+}
+
+.t2 {
+    width: 740px;
+    margin-right: 0rem;
+}
+
+.title {
+    font-size: 45px;
+    margin-top: 5.5rem;
+    justify-content: center;
+    display: flex;
+    margin-left: 3.5rem;
+}
+
+.bloco-p {
+    font-size: 30px;
+    width: 740px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: -24rem;
+    margin-top: 12rem;
+}
+
+.bloco-p2 {
+    font-size: 30px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: -24rem;
+    margin-top: 12rem; 
+}

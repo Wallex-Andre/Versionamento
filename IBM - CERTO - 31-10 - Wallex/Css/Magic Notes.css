@@ -1,0 +1,660 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.mobile-titulo , .mobile-titulo-cursos , .mobile-titulo-parceiros , .mobile-titulo-contatos, .mobile-p , .mobile-p-cursos , #mobile-Cursos , .mobile-contato1 , .mobile-contato2 , .mobile-contato3 , .mobile-contato4{
+    display: none ;
+}
+
+.formando {
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 20px;
+    margin-right: 40rem;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.formando_p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: italic;
+    margin-left: 3px;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.botaomatricula {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-right: 74rem;
+}
+
+.botao a {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+}
+
+.botao {
+    background-color: #93221F;
+    border-radius: 50px;
+    width: 16rem;
+    height: 5rem;
+    border: none;
+}
+
+.botao:hover {
+    box-shadow: 2px 2px 20px #000000;
+    transition: 0.3s;
+}
+
+.formando_imgs {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-top: -18rem;
+    margin-left: 2rem;
+    z-index: -1;
+    position: relative;
+}
+
+.img {
+    display: inline-block;
+    align-items: end;
+}
+
+.img1 {
+    width: 50rem;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.img2 {
+    width: auto;
+    height: 48rem;
+    margin-left: 1rem;
+}
+
+.img-1 , .img-2 {
+    display: none;
+}
+
+.paragrafo2 , .name {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-size: 1.500rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.cursost , .parceirost {
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+#Cursos {
+    margin-top: 4rem;
+}
+
+
+.img-cursos {
+    width: 185px;
+    height: auto;
+}
+
+.img-cursos:hover {
+    width: 190px;
+    height: auto;
+    box-shadow: 2px 2px 20px #000000;
+    transition: 0.3s;
+}
+
+
+.cursos {
+    margin-left: 4rem;
+    border-radius: 30px;
+}
+
+.cursos1 {
+    border-radius: 30px;
+    margin-top: 2.1rem;
+}
+
+.text-container1, .text-container2, .text-container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#mobile-Cursos {
+    margin-top: 4rem;
+    }
+
+#mobile-Cursos .img-cursos {
+    width: 150px;
+    height: auto;
+    border-radius: 30px;
+}
+
+#mobile-Cursos .img-cursos:hover {
+    box-shadow: 2px 2px 20px #000000;
+    border-radius: 30px;
+    transition: 0.3s;
+    height: auto;
+    width: 150px;
+}
+
+    
+.cursos-direita {
+margin-top: 2rem;
+margin-left: 2rem;
+border-radius: 30px;
+}
+
+.cursos {
+margin-top: 2rem;
+}
+
+.container-mobile-cursos, .container-mobile-cursos, .container-mobile-cursos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contatost {
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+main section {
+    position: relative;  
+    height: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 450px) {
+  .swiper {
+    height: 270px;
+  }
+}.swiper{
+    width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.card{
+    position: relative;
+    background: none;
+    height: 400px;
+    margin: 20px 0;
+}
+  
+.card::before{
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background: none;
+}
+  
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    z-index: 100;    
+}
+  
+.Parceiro {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+  
+.card .name-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;   
+} 
+  
+ .name{
+    font-size: 20px;
+    font-weight: 400;
+}
+  
+.swiper-pagination{
+    position: absolute;
+    top: 450px;
+    margin-bottom: 2rem;
+}
+  
+.swiper-pagination-bullet{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background: #93221F;
+}
+
+i {
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.contatos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.contato1 , .contato2 , .contato3 {
+    margin-top: 3rem;
+    background-color: #31171F;
+    border-radius: 30px;
+    width: 14rem;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato2 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.contato4 {
+    transform: translate( -50%);
+    background-color: #31171F;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+    position: absolute;
+    width: 48rem;
+    height: 8rem;
+    left: 50%;
+    margin-top: 4rem;
+}
+
+.cont1 , .contmap {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contmap {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-resolution: 144dpi) {
+
+    .formando {
+        font-family: "Hammersmith One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 20px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    
+    .formando_p {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: italic;
+        margin-left: 3px;
+        font-size: 15px;
+        margin-top: 1rem;
+    }
+    
+    .formando_imgs {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        margin-top: -16rem;
+    }
+
+    .img1 {
+        width: 40rem;
+        height: auto;
+    }
+    
+    .img2 {
+        width: 32rem;
+        height: auto;
+        margin-left: 1rem;
+    }
+    
+    .botaomatricula {
+        margin-top: 2rem;
+        margin-right: 56rem;
+    }
+    
+    .botao a {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        text-decoration: none;
+        font-size: 26px;
+        color: white;
+    }
+    
+    button.botao {
+        background-color: #93221F;
+        border-radius: 50px;
+        width: 16rem;
+        height: 5rem;
+        border: none;
+    }
+
+  }
+
+
+  @media (min-resolution: 200dpi) {
+
+    .formando {
+        font-family: "Hammersmith One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 20px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    
+    .formando_p {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: italic;
+        margin-left: 3px;
+        font-size: 15px;
+        margin-top: 1rem;
+    }
+    
+    .formando_imgs {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        margin-top: -16rem;
+        display: none;
+    }
+
+    .img1 {
+        width: 40rem;
+        height: auto;
+    }
+    
+    .img2 {
+        width: 32rem;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+  }
+
+@media screen and (max-width: 999px) {
+    
+    .formando , .formando_p , .formando_imgs , .img1 , .img2 , .cursost , .parceirost, .paragrafo2 , #Cursos , .contatost{
+        display: none;
+    }
+
+    .mobile-titulo , .mobile-p , .mobile-titulo-parceiros , .mobile-titulo-contatos ,  .container-mobile-cursos, .container-mobile-cursos, .container-mobile-cursos ,  .botaomatricula , #img-1 , #img-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-titulo , .mobile-titulo-cursos , .mobile-titulo-parceiros , .mobile-titulo-contatos {
+        font-family: "Hammersmith One", sans-serif;
+        font-weight: 400;
+        font-style:normal;
+        margin-left: 20px;
+        font-size: 40px;
+        margin-top: 2rem;
+    }
+
+    .mobile-p {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: italic;
+        display: block;
+        margin: auto;
+        font-size: 24px;
+        margin-top: 1rem;
+        text-align: left;
+        width: 360px;
+        height: auto;
+    }
+    
+    .botaomatricula {
+        margin-right: 0rem;
+        margin: 2rem auto;
+    }
+
+    .botao a {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        text-decoration: none;
+        font-size: 22px;
+        color: white;
+    }
+
+    button.botao {
+        background-color: #93221F;
+        border-radius: 50px;
+        width: 242px;
+        height: 70px;
+        border: none;
+    }
+        
+    .formando_imgs_mobile {
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .img-1 , .img-2 {
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    .img-1 {
+        height: 10rem;
+        width: auto;
+    }
+
+    .img-2 {
+        width: 20rem;
+        height: auto;
+    }
+
+    .mobile-titulo-cursos  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 37px;
+        margin-left: 0px;
+        margin-top: 2rem;
+    }
+
+    .mobile-p-cursos  {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: italic;
+        font-size: 25px;
+        text-align: center;
+        width: 360px;
+        height: auto;
+        display: block;
+        margin: 1rem auto;
+    }
+    
+    #mobile-Cursos {
+        margin-top: 2em;
+        display: block;
+    }
+
+    .img-cursos {
+        width: 150px;
+        height: auto;
+        border-radius: 30px;
+    }
+        
+    .cursos-direita {
+        margin-top: 2rem;
+        margin-left: 2rem;
+        border-radius: 30px;
+    }
+
+    .cursos {
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+    
+    .mobile-titulo-parceiros {
+        font-size: 37px;
+        margin: 2rem auto;
+    }
+
+    .Parceiro {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+    }
+      
+    .swiper-pagination{
+        margin-bottom: 7rem;
+    }
+      
+    .swiper-pagination-bullet{
+        height: 24px;
+        width: 24px;
+    }
+
+    .mobile-titulo-contatos {
+        margin-left: 0rem;
+        margin-top: -4rem;
+        margin-bottom: 4rem;
+    }
+    
+    .section {
+        margin-top: -4rem;
+    }
+
+    .contatos , .contato4 {
+        display: none;
+    }
+
+.mobile-contato1 , .mobile-contato2 , .mobile-contato3 {
+    background-color: #31171F;
+    border-radius: 30px;
+    width: 14rem;
+    height: 12rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.mobile-contato4 {
+    transform: translate( -50%);
+    background-color: #31171F;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+    position: absolute;
+    width: 20rem;
+    height: 8rem;
+    left: 50%;
+    margin-top: 2rem
+}
+
+.cont-texto , .contmap {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+.texto {
+    margin-top: 1.5rem;
+}
+
+.contmap {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#icon {
+    margin-top: 1.5rem;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.icon i {
+    margin-top: 1rem;
+}
+
+}
